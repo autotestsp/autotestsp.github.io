@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+table.header{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+}
+
+td.header{/
+    border-color: red;
+    border-style: solid;
+    border-width: 0px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.header{
+    padding: 0px;
+    margin: 0px;
+    left: 5px;
+    top: 65px;
+    position: absolute;
+    font: normal 30px 'Comfortaa', sans-serif, Verdana, Arial;
+    color: #fff;
+}
+
+tr:nth-child(2n) > td.header:nth-child(2n), tr:nth-child(2n + 1) > td.header:nth-child(2n+1){
+    background-color: #306090;
+}
+
+tr:nth-child(2n) > td.header:nth-child(2n+1), tr:nth-child(2n + 1) > td.header:nth-child(2n){
+    background-color: #305090;
+}
+
+div.footer{
+    /*width: 100%;*/
+    background: #f8f8fc;
+    padding: 0px;
+    margin: 0px;
+    left: 10px;
+    top: 100%;
+    /*bottom: 0px;*/
+    display: block;
+    position: absolute;
+    /*font-family: Verdana, Helvetica, Arial;
+    font-style: italics;*/
+    font: italic 10px Verdana, Helvetica, Arial
+}
+
+td.footer > .var_name{
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    position: relative;
+    font: normal 14px 'Anonymous Pro', sans-serif, Verdana, Arial;
+    color: #4050b0;
+}
+
+td.footer > .var_value{
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    position: relative;
+    font: normal 14px 'Anonymous Pro', sans-serif, Verdana, Arial;
+    color: #707070;
+}
